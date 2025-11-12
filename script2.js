@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const translations = {
   fr: {
-    title: "Bienvenue au Musée du Français",
+    title: "Les attraits du continent",
     subtitle: "L’Hôtel de Ville et le main sites",
     paragraph: [
       "Hôtel de Ville (Mairie de Paris)",
@@ -40,8 +40,8 @@ const translations = {
     next: "← Page Précédente",
   },
   en: {
-    title: "Les attraits du continent",
-    subtitle: "Τα αξιοθέατα της ηπείρου",
+    title: "Τα αξιοθέατα της ηπείρου",
+    subtitle: "Το Δημαρχείο και οι κύριοι χώροι",
     paragraph: [
       "Το Δημαρχείο του Παρισιού",
       "Το Δημαρχείο του Παρισιού (Hôtel de Ville) είναι το κτίριο όπου βρίσκεται η δημαρχία της πόλης. Βρίσκεται κοντά στον Σηκουάνα, απέναντι από το νησί Ιλ ντε λα Σιτέ. Το σημερινό κτίριο χτίστηκε τον 19ο αιώνα σε νεοαναγεννησιακό στυλ μετά από πυρκαγιά που κατέστρεψε το παλιό το 1871. Εδώ γίνονται οι μεγάλες επίσημες τελετές της πόλης. Μπροστά από το Δημαρχείο υπάρχουν συχνά εκδηλώσεις, χριστουγεννιάτικες αγορές ή παγοδρόμιο τον χειμώνα.",
@@ -98,4 +98,5 @@ langBtn.addEventListener("click", () => {
 });
 
 updateLanguage();
+
 
